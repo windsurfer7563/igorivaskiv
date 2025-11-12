@@ -1,5 +1,5 @@
 ---
-const FORMSPREE_ID = import.meta.env.PUBLIC_FORMSPREE_ID;
+const FORMSPREE_ID = import.meta.env.FORMSPREE_ID;
 const formAction = FORMSPREE_ID ? `https://formspree.io/f/${FORMSPREE_ID}` : undefined;
 ---
 <section id="contact" class="bg-contrast-light dark:bg-black w-full py-16 md:py-24 mt-16">
@@ -10,7 +10,7 @@ const formAction = FORMSPREE_ID ? `https://formspree.io/f/${FORMSPREE_ID}` : und
       {!
         FORMSPREE_ID ? null : (
           <p class="mb-6 text-sm text-yellow-300">
-            Contact form is not configured. Add PUBLIC_FORMSPREE_ID to enable submissions.
+            Contact form is not configured. Add FORMSPREE_ID to enable submissions.
           </p>
         )
       }
