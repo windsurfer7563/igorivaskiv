@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>John Doe - Engineering Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0A4A8F",
+            "secondary": "#00C2D1",
+            "background-light": "#F8F9FA",
+            "background-dark": "#101922",
+            "text-light": "#333333",
+            "text-dark": "#F8F9FA",
+            "contrast-light": "#212529",
+            "contrast-dark": "#F8F9FA"
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px",
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col w-full">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-8 md:px-10 lg:px-20 py-3 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] text-contrast-light dark:text-contrast-dark">John Doe - Engineering Solutions</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-secondary" href="#services">Services</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-secondary" href="#experience">Experience</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-secondary" href="#contact">Contact</a>
+</div>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors" href="#contact">
+<span class="truncate">Get a Quote</span>
+</a>
+</div>
+</header>
+<main class="w-full max-w-5xl mx-auto px-4 sm:px-8 md:px-10">
+<div class="@container py-16 md:py-24">
+<div class="flex flex-col gap-8 md:gap-12 md:flex-row-reverse items-center">
+<div class="w-full md:w-1/2">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Abstraction showcasing a blend of coding interface elements and conceptual data flow diagrams, highlighting software solutions for CAD integration and automation." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDC-POtBnz_hUGoM_DgGuZibpm2S4TPcgCjiXQ1PDl55RbksPiWQYm9-nCf11H644jnkzhcEmkA4Fw4-67nVgl5BGLvEq4BGLK9LRchk3MGhlddbxPiTa8Nw6twkMvRQ1O9xogblZbiAvCpqlAGX1UhCSfoo45zQ6EDHl1Ob7nt71u7i3d8704n7CbrHVXC7LGqOBgKLY6xsv9TiC97sBQ6un94SACbr1itNzAf_5GSFIkNf2XHYxYQKGpyM3LZymQcMM0Kck1S1kD5");'></div>
+</div>
+<div class="flex flex-col gap-6 md:w-1/2 @[864px]:justify-center">
+<div class="flex flex-col gap-4 text-left">
+<h1 class="text-contrast-light dark:text-contrast-dark text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl">
+                      Expert Hexagon Smart 3D &amp; SmartPlant Solutions
+                    </h1>
+<h2 class="text-base font-normal leading-normal @[480px]:text-lg">
+                      Specializing in custom configuration, programming, and automation to streamline your engineering workflows.
+                    </h2>
+</div>
+<div class="flex flex-wrap gap-4">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors" href="#services">
+<span class="truncate">View Services</span>
+</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary/20 dark:bg-secondary/20 text-primary dark:text-secondary text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-secondary/30 transition-colors" href="#contact">
+<span class="truncate">Contact Me</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-10 py-16 @container" id="services">
+<div class="flex flex-col gap-4 items-center text-center">
+<h2 class="text-contrast-light dark:text-contrast-dark text-[22px] font-bold leading-tight tracking-[-0.015em]">Services Offered</h2>
+<h3 class="text-contrast-light dark:text-contrast-dark tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl max-w-2xl">
+                  A Full Suite of SmartPlant Services
+                </h3>
+<p class="text-base font-normal leading-normal max-w-2xl">
+                  From initial setup to advanced custom development, I provide comprehensive solutions to optimize your projects and enhance productivity.
+                </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-0">
+<div class="flex flex-1 gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/10 p-3 rounded-full">
+<span class="material-symbols-outlined" style="font-size: 32px;">settings_applications</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="text-contrast-light dark:text-contrast-dark text-base font-bold leading-tight">Smart 3D/SmartPlant Configuration</h4>
+<p class="text-sm font-normal leading-normal">Tailored setup and configuration of PipingClasses, Custom Symbols, and project environments.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/10 p-3 rounded-full">
+<span class="material-symbols-outlined" style="font-size: 32px;">code</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="text-contrast-light dark:text-contrast-dark text-base font-bold leading-tight">Custom Programming &amp; Automation</h4>
+<p class="text-sm font-normal leading-normal">Developing custom applications and automation tools to solve unique engineering challenges.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/10 p-3 rounded-full">
+<span class="material-symbols-outlined" style="font-size: 32px;">swap_horiz</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="text-contrast-light dark:text-contrast-dark text-base font-bold leading-tight">Data Integration &amp; Transfer</h4>
+<p class="text-sm font-normal leading-normal">Seamless data transfer solutions between SmartPlant, Aveva E3D, and other platforms.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/10 p-3 rounded-full">
+<span class="material-symbols-outlined" style="font-size: 32px;">support_agent</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="text-contrast-light dark:text-contrast-dark text-base font-bold leading-tight">Specialized Software Support</h4>
+<p class="text-sm font-normal leading-normal">Expert support for SmartPlant Reference Data, PID, and Aveva E3D.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="py-16" id="experience">
+<div class="flex flex-col gap-4 items-center text-center">
+<h2 class="text-contrast-light dark:text-contrast-dark text-[22px] font-bold leading-tight tracking-[-0.015em]">Over 20 Years of Proven Experience</h2>
+<p class="text-base font-normal leading-normal max-w-2xl">Leveraging two decades of hands-on experience to deliver robust, efficient, and innovative solutions for the most complex engineering projects.</p>
+</div>
+<div class="mt-12 flow-root">
+<div class="-my-8">
+<div class="relative py-8">
+<div class="absolute left-1/2 top-2 h-full w-px bg-slate-300 dark:bg-slate-700"></div>
+<div class="relative flex items-center justify-between">
+<div class="w-2/5 pr-8 text-right">
+<h4 class="font-bold text-contrast-light dark:text-contrast-dark">Senior Application Developer</h4>
+<p class="text-sm">Developed custom data transfer tools between SmartPlant and Aveva E3D, saving hundreds of project hours.</p>
+</div>
+<div class="absolute left-1/2 z-10 -ml-2 h-4 w-4 rounded-full bg-primary"></div>
+<div class="w-2/5"></div>
+</div>
+</div>
+<div class="relative py-8">
+<div class="absolute left-1/2 top-2 h-full w-px bg-slate-300 dark:bg-slate-700"></div>
+<div class="relative flex items-center justify-between">
+<div class="w-2/5"></div>
+<div class="absolute left-1/2 z-10 -ml-2 h-4 w-4 rounded-full bg-primary"></div>
+<div class="w-2/5 pl-8 text-left">
+<h4 class="font-bold text-contrast-light dark:text-contrast-dark">SmartPlant Administrator</h4>
+<p class="text-sm">Managed and configured SmartPlant environments for large-scale energy projects, ensuring data integrity and user efficiency.</p>
+</div>
+</div>
+</div>
+<div class="relative py-8">
+<div class="absolute left-1/2 top-2 h-full w-px bg-slate-300 dark:bg-slate-700"></div>
+<div class="relative flex items-center justify-between">
+<div class="w-2/5 pr-8 text-right">
+<h4 class="font-bold text-contrast-light dark:text-contrast-dark">Piping Designer &amp; Engineer</h4>
+<p class="text-sm">Began career in mechanical engineering, gaining foundational knowledge in plant design and project execution.</p>
+</div>
+<div class="absolute left-1/2 z-10 -ml-2 h-4 w-4 rounded-full bg-primary"></div>
+<div class="w-2/5"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="bg-contrast-light dark:bg-black w-full py-16 md:py-24 mt-16" id="contact">
+<div class="max-w-3xl mx-auto px-4 sm:px-8 md:px-10 text-center">
+<h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready to Optimize Your Workflow?</h2>
+<p class="mt-4 text-lg leading-8 text-gray-300">Let's collaborate to build efficient solutions for your engineering challenges. Reach out today for a consultation.</p>
+<form class="mt-10 mx-auto max-w-xl">
+<div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+<div>
+<label class="sr-only" for="name">Name</label>
+<input autocomplete="name" class="block w-full rounded-lg border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6 placeholder:text-gray-400" id="name" name="name" placeholder="Your Name" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="company">Company</label>
+<input autocomplete="organization" class="block w-full rounded-lg border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6 placeholder:text-gray-400" id="company" name="company" placeholder="Company Name" type="text"/>
+</div>
+<div class="sm:col-span-2">
+<label class="sr-only" for="email">Email</label>
+<input autocomplete="email" class="block w-full rounded-lg border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6 placeholder:text-gray-400" id="email" name="email" placeholder="Email Address" type="email"/>
+</div>
+<div class="sm:col-span-2">
+<label class="sr-only" for="message">Message</label>
+<textarea class="block w-full rounded-lg border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-secondary sm:text-sm sm:leading-6 placeholder:text-gray-400" id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+</div>
+</div>
+<div class="mt-10">
+<button class="w-full sm:w-auto flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-secondary text-contrast-light text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors mx-auto" type="submit">
+<span class="truncate">Send Message</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<footer class="w-full py-6 bg-background-light dark:bg-background-dark">
+<div class="max-w-5xl mx-auto px-4 sm:px-8 md:px-10 text-center text-sm text-gray-500 dark:text-gray-400">
+<p>© 2024 John Doe - Engineering Solutions. All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/container-queries";
+
+@theme {
+  --color-primary: #0A4A8F;
+  --color-secondary: #00C2D1;
+  --color-background-light: #F8F9FA;
+  --color-background-dark: #101922;
+  --color-text-light: #333333;
+  --color-text-dark: #F8F9FA;
+  --color-contrast-light: #212529;
+  --color-contrast-dark: #F8F9FA;
+
+  --font-display: Manrope, sans-serif;
+
+  --radius: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+}
+
+/* Utilities */
+.font-display { font-family: var(--font-display); }
+html { scroll-behavior: smooth; }
